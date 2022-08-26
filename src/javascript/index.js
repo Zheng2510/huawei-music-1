@@ -112,7 +112,7 @@ class Player {
       this.lyricIndex++
       let node = this.$('[data-time="'+this.lyricsArr[this.lyricIndex][0]+'"]')
       if(node) this.setLyricToCenter(node)
-      this.$$('.panel-effect .lyric p')[0].innerText = this.lyricsArr[this.lyricIndex][1]
+      this.$('.panel-effect .lyric p')[0].innerText = this.lyricsArr[this.lyricIndex][1]
       this.$$('.panel-effect .lyric p')[1].innerText = this.lyricsArr[this.lyricIndex+1] ? this.lyricsArr[this.lyricIndex+1][1] : ''
       
     }

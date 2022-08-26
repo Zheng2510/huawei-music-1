@@ -24,25 +24,31 @@
 }
 #player .header .balls {
   display: flex;
-  justify-content: center; /*水平居中*/
-  align-items: center; /*垂直居中*/
+  justify-content: center;
+  /*水平居中*/
+  align-items: center;
+  /*垂直居中*/
   margin-top: 20px;
 }
 #player .header .balls span {
-  display: block; /*span是内联元素*/
+  display: block;
+  /*span是内联元素*/
   width: 5px;
   height: 5px;
-  border-radius: 50%; /*实现圆*/
+  border-radius: 50%;
+  /*实现圆*/
   background: #6a134f;
   margin: 0 4px;
 }
-#player .header .balls span.current { /*表示span里面的current*/
+#player .header .balls span.current {
+  /*表示span里面的current*/
   width: 8px;
   height: 8px;
   background: #db3baa;
 }
 #player .panels {
-  height: calc(100vh - 270px); /*计算高度用整个屏幕高度减去头部高度和脚部高度*/
+  height: calc(100vh - 270px);
+  /*计算高度用整个屏幕高度减去头部高度和脚部高度*/
   align-items: center;
   width: 200vw;
   display: flex;
@@ -193,7 +199,8 @@
   height: 50px;
 }
 
-@keyframes rotate { /*旋转*/
+@keyframes rotate {
+  /*旋转*/
   0% {
     transform: rotate(0);
   }
